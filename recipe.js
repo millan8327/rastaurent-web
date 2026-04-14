@@ -48,8 +48,7 @@ responce.meals.forEach(meal=>{
    recipediv.innerHTML=`<img src="${meal.strMealThumb}">
     <h3>${meal.strMeal}</h3>
     <p>${meal.strArea}</p>
-    <p>${meal.strCategory}</p>
-//     `
+    <p>${meal.strCategory}</p>   `
    const button=document.createElement("button");
    button.innerHTML="Add a card";
    button.classList.add("viewbtn");
